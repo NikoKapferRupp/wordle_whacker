@@ -1,0 +1,10 @@
+2024-01-21 15:59:59.158 [info] 
+
+
+
+
+2024-01-21 15:59:59.165 [info] Extension host agent started.
+2024-01-21 15:59:59.198 [info] Deleted uninstalled extension from disk george-alisson.html-preview-vscode /home/niko/.vscode-server/extensions/george-alisson.html-preview-vscode-0.2.5
+2024-01-21 15:59:59.270 [info] [127.0.0.1][780d6a64][ManagementConnection] New connection established.
+2024-01-21 15:59:59.445 [info] [127.0.0.1][897eadac][ExtensionHostConnection] New connection established.
+2024-01-21 15:59:59.485 [info] [127.0.0.1][897eadac][ExtensionHostConnection] <863> Launched Extension Host Process.

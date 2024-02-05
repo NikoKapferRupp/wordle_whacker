@@ -1,0 +1,18 @@
+2024-01-21 22:07:18.446 [info] Extension host with pid 869 started
+2024-01-21 22:07:18.446 [error] Error: EEXIST: file already exists, open '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock'
+2024-01-21 22:07:18.449 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-21 22:07:18.451 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': The pid 863 appears to be gone.
+2024-01-21 22:07:18.451 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Deleting a stale lock.
+2024-01-21 22:07:18.458 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Lock acquired.
+2024-01-21 22:07:18.487 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-01-21 22:07:18.488 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-21 22:07:18.649 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-21 22:07:18.655 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-01-21 22:07:18.748 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-21 22:07:18.748 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-21 22:07:19.064 [info] Eager extensions activated
+2024-01-21 22:07:19.064 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-21 22:07:19.064 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-21 22:52:45.732 [info] Extension host terminating: received terminate message from renderer
+2024-01-21 22:52:45.732 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-01-21 22:52:45.758 [info] Extension host with pid 869 exiting with code 0

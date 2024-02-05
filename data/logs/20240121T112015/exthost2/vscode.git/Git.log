@@ -1,0 +1,21 @@
+2024-01-21 13:42:46.648 [info] Log level: Info
+2024-01-21 13:42:46.648 [info] Validating found git in: "git"
+2024-01-21 13:42:46.648 [info] Using git "2.34.1" from "git"
+2024-01-21 13:42:46.648 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-21 13:42:46.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-21 13:42:46.648 [info] > git rev-parse --show-toplevel [15ms]
+2024-01-21 13:42:46.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-21 13:42:46.648 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-21 13:42:46.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-21 13:42:46.650 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-21 13:42:46.653 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-01-21 13:42:46.658 [info] Open repository: /home/niko/.nvm
+2024-01-21 13:42:46.664 [info] > git config --get commit.template [2ms]
+2024-01-21 13:42:46.664 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-21 13:42:46.664 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-21 13:42:46.672 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-01-21 13:42:46.679 [info] > git status -z -uall [4ms]
+2024-01-21 13:42:46.686 [info] > git config --get commit.template [3ms]
+2024-01-21 13:42:46.686 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-01-21 13:42:46.690 [info] > git status -z -uall [1ms]
+2024-01-21 13:42:47.173 [info] > git check-ignore -v -z --stdin [1ms]

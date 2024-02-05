@@ -1,0 +1,203 @@
+2024-01-29 11:06:49.361 [info] Extension host with pid 905 started
+2024-01-29 11:06:49.361 [error] Error: EEXIST: file already exists, open '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock'
+2024-01-29 11:06:49.363 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-29 11:06:49.364 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': The pid 856 appears to be gone.
+2024-01-29 11:06:49.364 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Deleting a stale lock.
+2024-01-29 11:06:49.373 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Lock acquired.
+2024-01-29 11:06:49.541 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-01-29 11:06:49.542 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-29 11:06:49.854 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-29 11:06:49.857 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-01-29 11:06:49.876 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-29 11:06:49.876 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-29 11:06:50.044 [info] Eager extensions activated
+2024-01-29 11:06:50.044 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 11:06:50.044 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 11:06:50.392 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-01-29 11:10:57.399 [error] Error: ENOENT: no such file or directory, open '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock'
+2024-01-29 11:10:57.399 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': The lock was lost unexpectedly.
+2024-01-29 11:10:57.399 [error] Error: ENOENT: no such file or directory, utime '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock'
+2024-01-29 11:10:57.399 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Could not update mtime.
+2024-01-29 11:10:57.423 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-01-29 11:10:57.424 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-01-29 11:10:57.425 [error] Activating extension vscode.extension-editing failed due to an error:
+2024-01-29 11:10:57.425 [error] Error: Cannot find module '/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/extension-editing/dist/extensionEditingMain'
+Require stack:
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/loader.js
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-amd.js
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+	at Module._load (node:internal/modules/cjs/loader:920:27)
+	at c._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1141:19)
+	at require (node:internal/modules/cjs/helpers:110:18)
+	at Function.i [as __$__nodeRequire] (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/loader.js:5:98)
+	at f.vb (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:30730)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+2024-01-29 11:10:57.425 [error] Activating extension vscode.markdown-language-features failed due to an error:
+2024-01-29 11:10:57.425 [error] Error: Cannot find module '/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/dist/extension'
+Require stack:
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/loader.js
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-amd.js
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+	at Module._load (node:internal/modules/cjs/loader:920:27)
+	at c._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1141:19)
+	at require (node:internal/modules/cjs/helpers:110:18)
+	at Function.i [as __$__nodeRequire] (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/loader.js:5:98)
+	at f.vb (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:30730)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+2024-01-29 11:10:57.582 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-01-29 11:10:57.588 [error] Activating extension vscode.json-language-features failed due to an error:
+2024-01-29 11:10:57.588 [error] Error: Cannot find module '/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/client/dist/node/jsonClientMain'
+Require stack:
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/loader.js
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-amd.js
+- /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+	at Module._load (node:internal/modules/cjs/loader:920:27)
+	at c._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1141:19)
+	at require (node:internal/modules/cjs/helpers:110:18)
+	at Function.i [as __$__nodeRequire] (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/loader.js:5:98)
+	at f.vb (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:30730)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+2024-01-29 11:10:58.723 [error] Error: spawn /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/bin/rg ENOENT
+    at T (vscode-file://vscode-app/c:/Users/Niko/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1861:5893)
+    at vscode-file://vscode-app/c:/Users/Niko/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1869:4355
+    at async vscode-file://vscode-app/c:/Users/Niko/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1869:2925
+2024-01-29 11:11:01.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2490
+2024-01-29 11:11:07.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:11:12.063 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:11:17.093 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:11:22.123 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:11:27.153 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:11:50.098 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:11:55.130 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:12:00.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:12:05.190 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:12:10.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:12:15.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:12:21.823 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2468
+2024-01-29 11:12:21.872 [info] Extension host terminating: received terminate message from renderer
+2024-01-29 11:12:21.872 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-01-29 11:12:21.899 [error] Canceled: Canceled
+	at new g (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:924696)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:940613)
+	at /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at f.value (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:7849)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:15556)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19527)
+	at n.acceptFrame (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19333)
+	at i.n (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:17832)
+	at /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:15052
+	at Socket.E (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:12957)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-01-29 11:12:21.899 [error] Canceled: Canceled
+	at new g (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js:2:322364)
+	at /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js:2:323005
+	at f.value (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:1016450)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:940613)
+	at /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at f.value (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:7849)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:15556)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19527)
+	at n.acceptFrame (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19333)
+	at i.n (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:17832)
+	at /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:15052
+	at Socket.E (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:12957)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-01-29 11:12:21.900 [error] Error: ENOENT: no such file or directory, open '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock'
+2024-01-29 11:12:21.901 [info] Extension host with pid 905 exiting with code 0

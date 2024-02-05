@@ -1,0 +1,18 @@
+2024-01-22 11:44:44.814 [info] 
+
+
+
+
+2024-01-22 11:44:44.821 [info] Extension host agent started.
+2024-01-22 11:44:44.962 [info] [127.0.0.1][fecfaad5][ManagementConnection] New connection established.
+2024-01-22 11:44:45.277 [info] [127.0.0.1][33b030aa][ExtensionHostConnection] New connection established.
+2024-01-22 11:44:45.280 [info] [127.0.0.1][33b030aa][ExtensionHostConnection] <896> Launched Extension Host Process.
+2024-01-22 12:25:11.577 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-22 13:31:28.688 [info] [127.0.0.1][fecfaad5][ManagementConnection] The client has reconnected.
+2024-01-22 13:31:28.770 [info] [127.0.0.1][33b030aa][ExtensionHostConnection] The client has reconnected.
+2024-01-22 15:38:20.805 [info] [127.0.0.1][fecfaad5][ManagementConnection] The client has reconnected.
+2024-01-22 15:38:20.885 [info] [127.0.0.1][33b030aa][ExtensionHostConnection] The client has reconnected.
+2024-01-22 16:39:28.808 [info] [127.0.0.1][33b030aa][ExtensionHostConnection] The client has reconnected.
+2024-01-22 16:39:28.880 [info] [127.0.0.1][fecfaad5][ManagementConnection] The client has reconnected.
+2024-01-22 17:52:53.273 [info] [127.0.0.1][33b030aa][ExtensionHostConnection] <896> Extension Host Process exited with code: 0, signal: null.
+2024-01-22 17:52:53.291 [info] [127.0.0.1][fecfaad5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

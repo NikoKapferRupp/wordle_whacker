@@ -1,0 +1,23 @@
+2024-01-29 11:06:46.834 [info] 
+
+
+
+
+2024-01-29 11:06:46.844 [info] Extension host agent started.
+2024-01-29 11:06:48.929 [info] [127.0.0.1][6936e4f6][ExtensionHostConnection] New connection established.
+2024-01-29 11:06:49.011 [info] [127.0.0.1][68a620f6][ManagementConnection] New connection established.
+2024-01-29 11:06:49.140 [info] [127.0.0.1][6936e4f6][ExtensionHostConnection] <905> Launched Extension Host Process.
+2024-01-29 11:10:57.287 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-01-29 11:10:57.326 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-01-29 11:11:49.333 [info] Started initializing default profile extensions in extensions installation folder. file:///home/niko/.vscode-server/extensions
+2024-01-29 11:11:49.334 [error] Error: Unable to resolve nonexistent file '/home/niko/.vscode-server/extensions'
+    at h.resolve (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:13307)
+    at async J.n (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:55073)
+    at async J.scanExtensions (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:54847)
+    at async p.scanUserExtensions (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:47781)
+    at async /home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:49791
+    at async p.scanUserExtensions (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:47878)
+    at async V.scanExtensions (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:73171)
+    at async f.call (/home/niko/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:104:22552)
+2024-01-29 11:12:21.879 [info] [127.0.0.1][68a620f6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-29 11:12:21.907 [info] [127.0.0.1][6936e4f6][ExtensionHostConnection] <905> Extension Host Process exited with code: 0, signal: null.

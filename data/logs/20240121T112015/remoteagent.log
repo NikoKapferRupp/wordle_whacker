@@ -1,0 +1,46 @@
+2024-01-21 11:20:15.435 [info] 
+
+
+
+
+2024-01-21 11:20:15.442 [info] Extension host agent started.
+2024-01-21 11:20:15.575 [info] [127.0.0.1][7c670289][ManagementConnection] New connection established.
+2024-01-21 11:20:15.873 [info] [127.0.0.1][100325aa][ExtensionHostConnection] New connection established.
+2024-01-21 11:20:15.893 [info] [127.0.0.1][100325aa][ExtensionHostConnection] <893> Launched Extension Host Process.
+2024-01-21 11:58:41.785 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-21 12:03:23.004 [info] [127.0.0.1][100325aa][ExtensionHostConnection] The client has reconnected.
+2024-01-21 12:03:23.089 [info] [127.0.0.1][7c670289][ManagementConnection] The client has reconnected.
+2024-01-21 13:42:46.002 [info] [127.0.0.1][ba2d275e][ManagementConnection] New connection established.
+2024-01-21 13:42:46.242 [info] [127.0.0.1][7ba49391][ExtensionHostConnection] New connection established.
+2024-01-21 13:42:46.245 [info] [127.0.0.1][7ba49391][ExtensionHostConnection] <21518> Launched Extension Host Process.
+2024-01-21 13:42:47.408 [info] [127.0.0.1][ba2d275e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-21 13:42:47.435 [info] [127.0.0.1][7ba49391][ExtensionHostConnection] <21518> Extension Host Process exited with code: 0, signal: null.
+2024-01-21 13:42:49.606 [info] [127.0.0.1][bdaca4cb][ManagementConnection] New connection established.
+2024-01-21 13:42:49.817 [info] [127.0.0.1][e8cdfbea][ExtensionHostConnection] New connection established.
+2024-01-21 13:42:49.821 [info] [127.0.0.1][e8cdfbea][ExtensionHostConnection] <21599> Launched Extension Host Process.
+2024-01-21 13:42:52.500 [info] [127.0.0.1][bdaca4cb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-21 13:42:52.523 [info] [127.0.0.1][e8cdfbea][ExtensionHostConnection] <21599> Extension Host Process exited with code: 0, signal: null.
+2024-01-21 13:55:51.072 [info] Getting Manifest... george-alisson.html-preview-vscode
+2024-01-21 13:55:51.180 [info] Installing extension: george-alisson.html-preview-vscode
+2024-01-21 13:55:51.946 [warning] Extension signature verification failed with error 'ENOENT': george-alisson.html-preview-vscode
+2024-01-21 13:55:52.422 [info] Extracted extension to file:///home/niko/.vscode-server/extensions/george-alisson.html-preview-vscode-0.2.5: george-alisson.html-preview-vscode
+2024-01-21 13:55:52.427 [info] Renamed to /home/niko/.vscode-server/extensions/george-alisson.html-preview-vscode-0.2.5
+2024-01-21 13:55:52.428 [info] Extracting extension completed. george-alisson.html-preview-vscode
+2024-01-21 13:55:52.433 [info] Extension installed successfully: george-alisson.html-preview-vscode
+2024-01-21 13:57:06.566 [info] Uninstalling extension from the profile: george-alisson.html-preview-vscode@0.2.5 file:///home/niko/.vscode-server/extensions/extensions.json
+2024-01-21 13:57:06.574 [info] Marked extension as uninstalled george-alisson.html-preview-vscode-0.2.5
+2024-01-21 13:57:06.838 [info] Successfully uninstalled extension from the profile george-alisson.html-preview-vscode@0.2.5 file:///home/niko/.vscode-server/extensions/extensions.json
+2024-01-21 13:57:09.062 [info] Getting Manifest... searking.preview-vscode
+2024-01-21 13:57:09.220 [info] Installing extension: searking.preview-vscode
+2024-01-21 13:57:12.743 [warning] Extension signature verification failed with error 'ENOENT': searking.preview-vscode
+2024-01-21 13:57:15.502 [info] Extracted extension to file:///home/niko/.vscode-server/extensions/searking.preview-vscode-2.2.5: searking.preview-vscode
+2024-01-21 13:57:15.512 [info] Renamed to /home/niko/.vscode-server/extensions/searking.preview-vscode-2.2.5
+2024-01-21 13:57:15.513 [info] Extracting extension completed. searking.preview-vscode
+2024-01-21 13:57:15.517 [info] Extension installed successfully: searking.preview-vscode
+2024-01-21 15:00:50.012 [info] [127.0.0.1][100325aa][ExtensionHostConnection] The client has reconnected.
+2024-01-21 15:00:50.095 [info] [127.0.0.1][7c670289][ManagementConnection] The client has reconnected.
+2024-01-21 15:31:12.180 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-21 15:37:14.024 [info] [127.0.0.1][7c670289][ManagementConnection] The client has reconnected.
+2024-01-21 15:37:14.107 [info] [127.0.0.1][100325aa][ExtensionHostConnection] The client has reconnected.
+2024-01-21 15:58:44.980 [info] [127.0.0.1][7c670289][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-21 15:58:45.013 [info] [127.0.0.1][100325aa][ExtensionHostConnection] <893> Extension Host Process exited with code: 0, signal: null.

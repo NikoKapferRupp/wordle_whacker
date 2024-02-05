@@ -1,0 +1,16 @@
+2024-01-25 22:08:01.840 [info] Extension host with pid 856 started
+2024-01-25 22:08:01.840 [error] Error: EEXIST: file already exists, open '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock'
+2024-01-25 22:08:01.843 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-25 22:08:01.845 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': The pid 895 appears to be gone.
+2024-01-25 22:08:01.845 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Deleting a stale lock.
+2024-01-25 22:08:01.851 [info] Lock '/home/niko/.vscode-server/data/User/workspaceStorage/ff610a2916824447eaaf4c0a7f87f07b/vscode.lock': Lock acquired.
+2024-01-25 22:08:01.887 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onLanguage:ignore'
+2024-01-25 22:08:01.888 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-25 22:08:01.957 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-25 22:08:01.957 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-25 22:08:02.027 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-01-25 22:08:02.352 [info] Eager extensions activated
+2024-01-25 22:08:02.352 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-25 22:08:02.352 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-25 22:08:13.333 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-01-25 22:08:14.577 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
