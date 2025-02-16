@@ -15923,6 +15923,7 @@ let words = [
 
 const readlineSync = require('readline-sync');
 const colors = require('colors');
+const yellowLetter = [];
 
 const alphaArray = [
   ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
@@ -15932,7 +15933,7 @@ const alphaArray = [
   ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
 ];
 
-const yellowLetter = [];
+
 function eraseOne(letter, arrayNum) { // removes the given character in the given array
   if (alphaArray[arrayNum].includes(letter)) {
     alphaArray[arrayNum].splice(alphaArray[arrayNum].findIndex((element) => element === letter), 1);
